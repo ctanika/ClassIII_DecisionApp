@@ -1,0 +1,72 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3666207377" file="J:\ClassIII Decision App.prj" location="J:\" name="ClassIII Decision App" target="target.mlapps" target-name="アプリのパッケージ化">
+    <param.appname>ClassIII Decision App</param.appname>
+    <param.authnamewatermark>Chihiro Tanikawa</param.authnamewatermark>
+    <param.email>tanikawa.chihiro.dent@osaka-u.ac.jp</param.email>
+    <param.company>Osaka University</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>ClassIII_DecisionApp is a MATLAB-based clinical decision support application designed to assist orthodontists in evaluating treatment options for skeletal Class III malocclusion. The program integrates a fuzzy inference model (MG-Sk3), which estimates the degree of skeletal Class III based on soft-tissue appearance, with a rule-based decision structure derived from key cephalometric measurements.
+
+Users enter seven pretreatment cephalometric variables (ANB, Gn–Nperp, SN, Go–Me, overjet, Me–PP, and H-angle), and the application automatically calculates the linear combination (LC), the MG-Sk3 value, and a final treatment recommendation (Camouflage or Surgery). The interface displays all computed values together with a generated text explanation describing the clinical rationale.
+
+An optional ChatGPT-assisted mode is available to summarize the diagnostic reasoning in short, clinically readable sentences via the OpenAI API. This feature can be switched on or off within the application.
+
+This packaged application includes all necessary runtime components and can be executed without requiring a MATLAB installation. It is intended for use in clinical research, education, and decision-support scenarios.</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>c6553031-e419-4958-8b9e-4af454a800a6</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\ClassIII_DecisionApp.m</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables />
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022b</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
