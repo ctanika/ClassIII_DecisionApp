@@ -13,5 +13,4 @@ LC-based fuzzy computation from ANB, Gn–Nperp, SN, Go–Me
 Decision tree for treatment selection
 Clean clinical explanation automatically generated
 Optional ChatGPT-based summarization
-Packaged as an installable MATLAB App (.mlappinstall)
 Executable Runtime option for non-MATLAB users (optional)
