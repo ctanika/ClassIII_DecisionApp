@@ -14,3 +14,5 @@ Decision tree for treatment selection
 Clean clinical explanation automatically generated
 Optional ChatGPT-based summarization
 Executable Runtime option for non-MATLAB users (optional)
+<img width="685" height="737" alt="DecisionModel" src="https://github.com/user-attachments/assets/2e1d6b04-233e-477f-b6af-39b9c36891ab" />
+
